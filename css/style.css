@@ -107,8 +107,11 @@ input {
   margin-top: 3rem;
   text-decoration: none;
   background-color: var(--colorPrincipal);
+  transition: all 0.2s;
 }
-
+.boton:hover {
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
 .boton-ingresar {
   background-color: #2196f3;
 }
@@ -142,6 +145,12 @@ input {
   background-color: white;
   border-left: 0.5rem solid var(--colorPrincipal);
   padding: 1.5rem;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  transition: all 0.3s;
+}
+
+.general:hover {
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 .general h3 {
@@ -250,4 +259,77 @@ input {
 
 .div6 p {
   text-align: center;
+}
+
+/* FOOTER */
+
+.footer-top {
+  margin-top: 3.5rem;
+  background-color: #616161;
+  padding: 3rem 4rem;
+  padding-bottom: 0rem;
+  padding-right: 25rem;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-top h4 {
+  font-size: 2rem;
+  font-family: var(--fontSecundaria);
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  color: #b0b0b0;
+}
+
+.footer-top p {
+  display: inline;
+  font-size: 1.8rem;
+  font-family: var(--fontPrincipal);
+}
+
+.footer-top i {
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.footer-top a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-family: var(--fontPrincipal);
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.sociales i {
+  font-size: 3.5rem;
+}
+
+.columna3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-bot {
+  background-color: #333333;
+  color: white;
+  padding: 4rem;
+  text-align: center;
+  font-size: 2rem;
+  font-family: var(--fontPrincipal);
+}
+
+.footer-bot a {
+  text-decoration: none;
+  color: white;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+.footer-bot a:hover,
+.footer-top a:hover {
+  text-decoration: underline;
 }
