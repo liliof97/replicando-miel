@@ -86,7 +86,7 @@ nav a {
   text-decoration: none;
   color: white;
   font-size: 1.6rem;
-  padding: 1rem 2.5rem;
+  padding: 1.5rem 2.5rem;
   transition: all 0.3s;
 }
 
@@ -100,7 +100,93 @@ nav a:hover {
   position: fixed;
   background-color: #444444;
   top: 9.8rem;
-  width: 24rem;
+  width: 23rem;
   height: 100%;
-  padding: 3rem 2rem;
+  padding: 3rem 0rem;
+}
+
+.menu-lateral h2 {
+  font-family: var(--fontPrincipal);
+  margin-left: 3rem;
+  font-weight: 300;
+}
+
+.menu-lateral a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.6rem;
+  padding: 0.5rem 3rem;
+  display: block;
+  transition: all 0.3s;
+}
+
+.menu-lateral a:hover {
+  background-color: #666666;
+  padding: 0.5rem 3rem;
+}
+
+/* DECLARACIÓN JURADA */
+
+.declaracion {
+  background-color: #009688;
+  margin-top: 12rem;
+  margin-left: 25.5rem;
+  width: 85%;
+  height: 20rem;
+  color: white;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  font-size: 1rem;
+}
+
+h3 {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-family: var(--fontPrincipal);
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.declaracion p {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  font-weight: 600;
+}
+
+.declaracion p:last-of-type {
+  margin-top: 2rem;
+}
+
+.boton {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  background-color: var(--colorPrincipal);
+  transition: all 0.2s;
+}
+
+.boton-declaracion {
+  background-color: #fff;
+  color: #000;
+  display: inline-block;
+  text-transform: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.boton-declaracion:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn {
+  text-align: end;
+  margin-right: 2rem;
+}
+
+.materia {
+  background-color: #fff;
 }
